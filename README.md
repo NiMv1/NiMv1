@@ -159,13 +159,13 @@ public class Developer {
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/25-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
+      <img src="https://img.shields.io/badge/26-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/17-Merged-00FF00?style=for-the-badge&logo=github&logoColor=black"/>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/8-Projects-FF00FF?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
+      <img src="https://img.shields.io/badge/9-Projects-FF00FF?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
     </td>
   </tr>
 </table>
@@ -180,6 +180,7 @@ public class Developer {
 | **[JabRef](https://github.com/JabRef/jabref)** | Log levels fix | ⏳ Review |
 | **[Apache Seata](https://github.com/apache/incubator-seata)** | Unit tests core module | ⏳ Review |
 | **[Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway)** | Empty path prefixes | ⏳ Review |
+| **[OpenFeign](https://github.com/OpenFeign/feign)** | methodKey in RetryableException | ⏳ Review |
 
 ---
 
