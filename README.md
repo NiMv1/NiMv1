@@ -193,7 +193,7 @@ public class Developer {
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=NiMv1&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NiMv1&theme=algolia&no-frame=true&margin-w=10&margin-h=10&column=4&row=2" alt="Trophies" />
 </p>
 
 ---
