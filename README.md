@@ -1,12 +1,13 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Java%20Backend%20Developer&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Microservices%20|%20Spring%20Boot%20|%20Kafka&descAlignY=55&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:FF00FF,100:00FF00&height=200&section=header&text=NiMv1&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Java%20Backend%20Developer%20|%20Microservices%20|%20Open%20Source&descAlignY=55&descSize=16"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=667EEA&center=true&vCenter=true&width=500&lines=3%2B+%D0%BB%D0%B5%D1%82+%D0%BE%D0%BF%D1%8B%D1%82%D0%B0+%D0%B2+Java+Backend;Spring+Boot+%7C+Microservices+%7C+Kafka;PostgreSQL+%7C+Redis+%7C+Docker" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=%F0%9F%94%A5+20%2B+Open+Source+PRs;%F0%9F%9A%80+Spring+Boot+%7C+Kafka+%7C+Microservices;%F0%9F%92%BB+High-Load+Distributed+Systems;%E2%9A%A1+Event-Driven+%7C+Saga+%7C+CQRS" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NiMv1&label=Profile%20Views&color=667eea&style=flat-square" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/NiMv1?label=Followers&style=flat-square&color=764ba2" alt="Followers" />
+  <img src="https://komarev.com/ghpvc/?username=NiMv1&label=Profile%20Views&color=00FFFF&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/NiMv1?label=Followers&style=for-the-badge&color=FF00FF" alt="Followers" />
+  <img src="https://img.shields.io/badge/Open_Source-20+_PRs-00FF00?style=for-the-badge&logo=github" alt="PRs" />
 </p>
 
 ---
@@ -141,11 +142,11 @@ public class Developer {
       <h3 align="center">🔧 Ключевые паттерны</h3>
       <br/>
       <p align="center">
-        <img src="https://img.shields.io/badge/Saga_Pattern-667eea?style=for-the-badge"/>
-        <img src="https://img.shields.io/badge/Event_Driven-764ba2?style=for-the-badge"/>
-        <img src="https://img.shields.io/badge/Idempotency-667eea?style=for-the-badge"/>
-        <img src="https://img.shields.io/badge/CQRS-764ba2?style=for-the-badge"/>
-        <img src="https://img.shields.io/badge/Circuit_Breaker-667eea?style=for-the-badge"/>
+        <img src="https://img.shields.io/badge/Saga_Pattern-00FFFF?style=for-the-badge&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Event_Driven-FF00FF?style=for-the-badge"/>
+        <img src="https://img.shields.io/badge/Idempotency-00FF00?style=for-the-badge&logoColor=black"/>
+        <img src="https://img.shields.io/badge/CQRS-00FFFF?style=for-the-badge&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Circuit_Breaker-FF00FF?style=for-the-badge"/>
       </p>
     </td>
   </tr>
@@ -158,13 +159,13 @@ public class Developer {
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/19-PR_Created-667eea?style=for-the-badge&logo=git&logoColor=white"/>
+      <img src="https://img.shields.io/badge/20-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/17-Merged-6DB33F?style=for-the-badge&logo=github&logoColor=white"/>
+      <img src="https://img.shields.io/badge/17-Merged-00FF00?style=for-the-badge&logo=github&logoColor=black"/>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/3-Projects-764ba2?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
+      <img src="https://img.shields.io/badge/4-Projects-FF00FF?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
     </td>
   </tr>
 </table>
@@ -173,6 +174,7 @@ public class Developer {
 |--------|-------|--------|
 | **[Checkstyle](https://github.com/checkstyle/checkstyle)** | 17 PR — Javadoc AST format | ✅ 16 Merged |
 | **[Mockito](https://github.com/mockito/mockito)** | Документация RETURNS_MOCKS | ✅ Merged |
+| **[TestContainers](https://github.com/testcontainers/testcontainers-java)** | getR2dbcUrl() метод | ⏳ Review |
 | **[Resilience4j](https://github.com/resilience4j/resilience4j)** | Setter для bulkheadAspectOrder | ⏳ Review |
 
 ---
@@ -180,12 +182,12 @@ public class Developer {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=NiMv1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=NiMv1&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=NiMv1&show_icons=true&theme=radical&hide_border=true&bg_color=0D0D0D&title_color=00FFFF&icon_color=FF00FF&text_color=FFFFFF" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=NiMv1&theme=radical&hide_border=true&background=0D0D0D&ring=00FFFF&fire=FF00FF&currStreakLabel=00FF00" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NiMv1&theme=tokyo-night&hide_border=true&bg_color=0D1117" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NiMv1&theme=react-dark&hide_border=true&bg_color=0D0D0D&color=00FFFF&line=FF00FF&point=00FF00" alt="Activity Graph" />
 </p>
 
 ---
@@ -193,7 +195,7 @@ public class Developer {
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=NiMv1&theme=algolia&no-frame=true&margin-w=10&margin-h=10&column=4&row=2" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NiMv1&theme=radical&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="Trophies" />
 </p>
 
 ---
@@ -202,11 +204,14 @@ public class Developer {
 
 <p align="center">
   <a href="mailto:nimv1@mail.ru">
-    <img src="https://img.shields.io/badge/Email-nimv1@mail.ru-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-nimv1@mail.ru-00FFFF?style=for-the-badge&logo=gmail&logoColor=black" />
   </a>
   <a href="https://t.me/nimv1">
-    <img src="https://img.shields.io/badge/Telegram-@nimv1-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Telegram-@nimv1-FF00FF?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+  <a href="https://nimv1.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-nimv1.github.io-00FF00?style=for-the-badge&logo=github&logoColor=black" />
   </a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:FF00FF,100:00FF00&height=120&section=footer"/>
