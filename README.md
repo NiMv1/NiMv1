@@ -159,13 +159,13 @@ public class Developer {
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/22-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
+      <img src="https://img.shields.io/badge/23-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/17-Merged-00FF00?style=for-the-badge&logo=github&logoColor=black"/>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/6-Projects-FF00FF?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
+      <img src="https://img.shields.io/badge/7-Projects-FF00FF?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
     </td>
   </tr>
 </table>
@@ -178,6 +178,7 @@ public class Developer {
 | **[Resilience4j](https://github.com/resilience4j/resilience4j)** | Setter для bulkheadAspectOrder | ⏳ Review |
 | **[Armeria](https://github.com/line/armeria)** | KafkaLogWriter | ⏳ Review |
 | **[JabRef](https://github.com/JabRef/jabref)** | Log levels fix | ⏳ Review |
+| **[Apache Seata](https://github.com/apache/incubator-seata)** | Unit tests core module | ⏳ Review |
 
 ---
 
