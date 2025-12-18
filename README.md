@@ -1,13 +1,13 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:FF00FF,100:00FF00&height=200&section=header&text=NiMv1&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Java%20Backend%20Developer%20|%20Microservices%20|%20Open%20Source&descAlignY=55&descSize=16"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=%F0%9F%94%A5+20%2B+Open+Source+PRs;%F0%9F%9A%80+Spring+Boot+%7C+Kafka+%7C+Microservices;%F0%9F%92%BB+High-Load+Distributed+Systems;%E2%9A%A1+Event-Driven+%7C+Saga+%7C+CQRS" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=%F0%9F%94%A5+27+Open+Source+PRs;%F0%9F%9A%80+Spring+Boot+%7C+Kafka+%7C+Microservices;%F0%9F%92%BB+High-Load+Distributed+Systems;%E2%9A%A1+Event-Driven+%7C+Saga+%7C+CQRS" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=NiMv1&label=Profile%20Views&color=00FFFF&style=for-the-badge" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/NiMv1?label=Followers&style=for-the-badge&color=FF00FF" alt="Followers" />
-  <img src="https://img.shields.io/badge/Open_Source-20+_PRs-00FF00?style=for-the-badge&logo=github" alt="PRs" />
+  <img src="https://img.shields.io/badge/Open_Source-27_PRs-00FF00?style=for-the-badge&logo=github" alt="PRs" />
 </p>
 
 ---
@@ -159,7 +159,7 @@ public class Developer {
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/26-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
+      <img src="https://img.shields.io/badge/27-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/17-Merged-00FF00?style=for-the-badge&logo=github&logoColor=black"/>
@@ -181,6 +181,7 @@ public class Developer {
 | **[Apache Seata](https://github.com/apache/incubator-seata)** | Unit tests core module | ⏳ Review |
 | **[Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway)** | Empty path prefixes | ⏳ Review |
 | **[OpenFeign](https://github.com/OpenFeign/feign)** | methodKey in RetryableException | ⏳ Review |
+| **[distributed-task-framework](https://github.com/NiMv1/distributed-task-framework)** | JaCoCo coverage report + Codecov upload | ⏳ Review |
 
 ---
 
