@@ -159,7 +159,7 @@ public class Developer {
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/24-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
+      <img src="https://img.shields.io/badge/25-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/17-Merged-00FF00?style=for-the-badge&logo=github&logoColor=black"/>
