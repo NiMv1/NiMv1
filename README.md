@@ -153,6 +153,30 @@ public class Developer {
 
 ---
 
+## 🌟 Open Source Contributions
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/19-PR_Created-667eea?style=for-the-badge&logo=git&logoColor=white"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/17-Merged-6DB33F?style=for-the-badge&logo=github&logoColor=white"/>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/3-Projects-764ba2?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+| Проект | Вклад | Статус |
+|--------|-------|--------|
+| **[Checkstyle](https://github.com/checkstyle/checkstyle)** | 17 PR — Javadoc AST format | ✅ 16 Merged |
+| **[Mockito](https://github.com/mockito/mockito)** | Документация RETURNS_MOCKS | ✅ Merged |
+| **[Resilience4j](https://github.com/resilience4j/resilience4j)** | Setter для bulkheadAspectOrder | ⏳ Review |
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
