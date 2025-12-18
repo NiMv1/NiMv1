@@ -179,6 +179,43 @@ public class Developer {
 
 ---
 
+## 📦 My Open Source Libraries
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">⚡ Distributed Task Framework</h3>
+      <p align="center">
+        <a href="https://github.com/NiMv1/distributed-task-framework">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=NiMv1&repo=distributed-task-framework&theme=radical&hide_border=true&bg_color=0D0D0D&title_color=00FFFF&icon_color=FF00FF" />
+        </a>
+      </p>
+      <p align="center"><strong>High-performance distributed task processing</strong></p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Java_17-00FFFF?style=flat-square&logo=openjdk&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Spring_Boot-FF00FF?style=flat-square&logo=spring-boot&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Priority_Queue-00FF00?style=flat-square&logoColor=black"/>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🔒 Idempotency Starter</h3>
+      <p align="center">
+        <a href="https://github.com/NiMv1/spring-boot-starter-idempotency">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=NiMv1&repo=spring-boot-starter-idempotency&theme=radical&hide_border=true&bg_color=0D0D0D&title_color=00FFFF&icon_color=FF00FF" />
+        </a>
+      </p>
+      <p align="center"><strong>Idempotent request handling with Redis</strong></p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Java_17-00FFFF?style=flat-square&logo=openjdk&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Redis-FF00FF?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/AOP-00FF00?style=flat-square&logoColor=black"/>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
