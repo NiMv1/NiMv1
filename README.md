@@ -1,4 +1,6 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:FF00FF,100:00FF00&height=200&section=header&text=NiMv1&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Java%20Backend%20Developer%20|%20Microservices%20|%20Open%20Source&descAlignY=55&descSize=16"/>
+<p align="center">
+  <img width="100%" src="./assets/header.svg" alt="NiMv1 Cyberpunk Header"/>
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=%F0%9F%94%A5+30%2B+Open+Source+PRs+%7C+18+Merged;%F0%9F%9A%80+Spring+Boot+%7C+Kafka+%7C+Microservices;%F0%9F%92%BB+High-Load+Distributed+Systems;%E2%9A%A1+AI-Assisted+Development+%7C+Windsurf" alt="Typing SVG" />
@@ -258,4 +260,6 @@ public class Developer {
   </a>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:FF00FF,100:00FF00&height=120&section=footer"/>
+<p align="center">
+  <img width="100%" src="./assets/footer.svg" alt="NiMv1 Cyberpunk Footer"/>
+</p>

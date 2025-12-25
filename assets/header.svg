@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <!-- Cyberpunk gradient background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="50%" style="stop-color:#0d1025"/>
+      <stop offset="100%" style="stop-color:#0a0a1a"/>
+    </linearGradient>
+    
+    <!-- Neon glow filter -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Glitch filter -->
+    <filter id="glitch">
+      <feOffset in="SourceGraphic" dx="2" dy="0" result="r"/>
+      <feOffset in="SourceGraphic" dx="-2" dy="0" result="b"/>
+      <feColorMatrix in="r" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="red"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="blue"/>
+      <feBlend in="red" in2="blue" mode="screen" result="blend"/>
+      <feBlend in="blend" in2="SourceGraphic" mode="screen"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#1a3a5c" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="50" x2="1200" y2="50"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="100" y1="0" x2="100" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="400" y1="0" x2="400" y2="300"/>
+    <line x1="500" y1="0" x2="500" y2="300"/>
+    <line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="700" y1="0" x2="700" y2="300"/>
+    <line x1="800" y1="0" x2="800" y2="300"/>
+    <line x1="900" y1="0" x2="900" y2="300"/>
+    <line x1="1000" y1="0" x2="1000" y2="300"/>
+    <line x1="1100" y1="0" x2="1100" y2="300"/>
+  </g>
+  
+  <!-- Scattered pixels - cyan -->
+  <g fill="#00FFFF" opacity="0.8">
+    <rect x="50" y="30" width="4" height="4"/>
+    <rect x="120" y="80" width="3" height="3"/>
+    <rect x="180" y="45" width="5" height="5"/>
+    <rect x="250" y="120" width="4" height="4"/>
+    <rect x="320" y="60" width="3" height="3"/>
+    <rect x="890" y="40" width="4" height="4"/>
+    <rect x="950" y="90" width="5" height="5"/>
+    <rect x="1020" y="55" width="3" height="3"/>
+    <rect x="1100" y="100" width="4" height="4"/>
+    <rect x="1150" y="35" width="3" height="3"/>
+  </g>
+  
+  <!-- Scattered pixels - magenta -->
+  <g fill="#FF00FF" opacity="0.8">
+    <rect x="80" y="220" width="4" height="4"/>
+    <rect x="150" y="180" width="3" height="3"/>
+    <rect x="220" y="250" width="5" height="5"/>
+    <rect x="350" y="200" width="4" height="4"/>
+    <rect x="420" y="240" width="3" height="3"/>
+    <rect x="850" y="210" width="4" height="4"/>
+    <rect x="920" y="260" width="5" height="5"/>
+    <rect x="1000" y="190" width="3" height="3"/>
+    <rect x="1080" y="230" width="4" height="4"/>
+    <rect x="1140" y="270" width="3" height="3"/>
+  </g>
+  
+  <!-- Scattered pixels - green -->
+  <g fill="#00FF00" opacity="0.6">
+    <rect x="70" y="130" width="3" height="3"/>
+    <rect x="200" y="160" width="4" height="4"/>
+    <rect x="380" y="140" width="3" height="3"/>
+    <rect x="480" y="170" width="4" height="4"/>
+    <rect x="780" y="135" width="3" height="3"/>
+    <rect x="1050" y="155" width="4" height="4"/>
+  </g>
+  
+  <!-- Circuit lines left -->
+  <g stroke="#00FFFF" stroke-width="1.5" fill="none" opacity="0.6" filter="url(#neonGlow)">
+    <path d="M0,150 L80,150 L100,130 L150,130"/>
+    <path d="M0,180 L60,180 L80,200 L120,200"/>
+    <path d="M0,120 L40,120 L60,100 L100,100"/>
+    <circle cx="150" cy="130" r="3" fill="#00FFFF"/>
+    <circle cx="120" cy="200" r="3" fill="#00FFFF"/>
+    <circle cx="100" cy="100" r="3" fill="#00FFFF"/>
+  </g>
+  
+  <!-- Circuit lines right -->
+  <g stroke="#FF00FF" stroke-width="1.5" fill="none" opacity="0.6" filter="url(#neonGlow)">
+    <path d="M1200,150 L1120,150 L1100,170 L1050,170"/>
+    <path d="M1200,120 L1140,120 L1120,100 L1080,100"/>
+    <path d="M1200,200 L1160,200 L1140,220 L1100,220"/>
+    <circle cx="1050" cy="170" r="3" fill="#FF00FF"/>
+    <circle cx="1080" cy="100" r="3" fill="#FF00FF"/>
+    <circle cx="1100" cy="220" r="3" fill="#FF00FF"/>
+  </g>
+  
+  <!-- Glitch bars -->
+  <g opacity="0.15">
+    <rect x="0" y="85" width="1200" height="2" fill="#00FFFF"/>
+    <rect x="0" y="195" width="1200" height="1" fill="#FF00FF"/>
+    <rect x="0" y="245" width="1200" height="2" fill="#00FF00"/>
+  </g>
+  
+  <!-- Main text with glitch effect -->
+  <g filter="url(#glitch)">
+    <text x="600" y="130" font-family="'Courier New', monospace" font-size="72" font-weight="bold" fill="#00FFFF" text-anchor="middle" filter="url(#neonGlow)">NiMv1</text>
+  </g>
+  
+  <!-- Subtitle -->
+  <text x="600" y="175" font-family="'Courier New', monospace" font-size="18" fill="#FFFFFF" text-anchor="middle" opacity="0.9">
+    <tspan fill="#00FFFF">Java</tspan>
+    <tspan fill="#666666"> // </tspan>
+    <tspan fill="#FF00FF">Backend</tspan>
+    <tspan fill="#666666"> // </tspan>
+    <tspan fill="#00FF00">Open Source</tspan>
+  </text>
+  
+  <!-- Code-like decorations -->
+  <text x="50" y="280" font-family="'Courier New', monospace" font-size="11" fill="#3a5a7c" opacity="0.5">
+    &lt;init&gt; system.boot() | status: ONLINE | version: 2.0
+  </text>
+  <text x="850" y="280" font-family="'Courier New', monospace" font-size="11" fill="#3a5a7c" opacity="0.5">
+    [0x7F4A2B] memory: OK | threads: 147
+  </text>
+  
+  <!-- Corner brackets -->
+  <g stroke="#00FFFF" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M20,20 L20,50 M20,20 L50,20"/>
+    <path d="M1180,20 L1180,50 M1180,20 L1150,20"/>
+    <path d="M20,280 L20,250 M20,280 L50,280"/>
+    <path d="M1180,280 L1180,250 M1180,280 L1150,280"/>
+  </g>
+  
+  <!-- Scanline effect -->
+  <g opacity="0.03">
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="1200" height="4">
+      <rect width="1200" height="2" fill="#000"/>
+    </pattern>
+    <rect width="1200" height="300" fill="url(#scanlines)"/>
+  </g>
+</svg>
