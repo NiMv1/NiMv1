@@ -1,9 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150">
   <defs>
     <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0a1a"/>
-      <stop offset="50%" style="stop-color:#0d1025"/>
-      <stop offset="100%" style="stop-color:#0a0a1a"/>
+      <stop offset="0%" style="stop-color:#1a0a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f0f23"/>
+    </linearGradient>
+    
+    <linearGradient id="warmGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B35"/>
+      <stop offset="50%" style="stop-color:#FF1744"/>
+      <stop offset="100%" style="stop-color:#FF00FF"/>
     </linearGradient>
     
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
@@ -18,79 +24,115 @@
   <!-- Background -->
   <rect width="1200" height="150" fill="url(#footerBg)"/>
   
+  <!-- Animated light beam -->
+  <polygon points="200,0 300,0 700,150 600,150" fill="url(#warmGlow)" opacity="0.08">
+    <animate attributeName="opacity" values="0.05;0.12;0.05" dur="4s" repeatCount="indefinite"/>
+  </polygon>
+  
   <!-- Grid -->
-  <g stroke="#1a3a5c" stroke-width="0.5" opacity="0.2">
+  <g stroke="#3a1a5c" stroke-width="0.5" opacity="0.15">
     <line x1="0" y1="30" x2="1200" y2="30"/>
     <line x1="0" y1="60" x2="1200" y2="60"/>
     <line x1="0" y1="90" x2="1200" y2="90"/>
     <line x1="0" y1="120" x2="1200" y2="120"/>
   </g>
   
-  <!-- Scattered pixels -->
-  <g fill="#00FFFF" opacity="0.7">
-    <rect x="45" y="25" width="3" height="3"/>
-    <rect x="180" y="55" width="4" height="4"/>
-    <rect x="320" y="35" width="3" height="3"/>
-    <rect x="890" y="45" width="4" height="4"/>
-    <rect x="1050" y="30" width="3" height="3"/>
-    <rect x="1120" y="65" width="4" height="4"/>
+  <!-- Animated particles - Orange -->
+  <g fill="#FF6B35">
+    <rect x="45" y="25" width="3" height="3" opacity="0.8">
+      <animate attributeName="y" values="25;22;25" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="180" y="40" width="4" height="4" opacity="0.7">
+      <animate attributeName="y" values="40;37;40" dur="2.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="950" y="30" width="3" height="3" opacity="0.8">
+      <animate attributeName="y" values="30;27;30" dur="1.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1100" y="45" width="4" height="4" opacity="0.7">
+      <animate attributeName="y" values="45;42;45" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
   </g>
   
-  <g fill="#FF00FF" opacity="0.7">
-    <rect x="100" y="100" width="4" height="4"/>
-    <rect x="250" y="115" width="3" height="3"/>
-    <rect x="420" y="95" width="4" height="4"/>
-    <rect x="780" y="110" width="3" height="3"/>
-    <rect x="950" y="120" width="4" height="4"/>
-    <rect x="1080" y="105" width="3" height="3"/>
+  <!-- Animated particles - Red/Pink -->
+  <g fill="#FF1744">
+    <rect x="100" y="100" width="4" height="4" opacity="0.7">
+      <animate attributeName="y" values="100;97;100" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="320" y="115" width="3" height="3" opacity="0.8">
+      <animate attributeName="y" values="115;112;115" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="880" y="105" width="4" height="4" opacity="0.7">
+      <animate attributeName="y" values="105;102;105" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1050" y="120" width="3" height="3" opacity="0.8">
+      <animate attributeName="y" values="120;117;120" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
   </g>
   
-  <g fill="#00FF00" opacity="0.5">
-    <rect x="150" y="70" width="3" height="3"/>
-    <rect x="550" y="80" width="4" height="4"/>
-    <rect x="700" y="65" width="3" height="3"/>
-    <rect x="1000" y="75" width="4" height="4"/>
+  <!-- Animated particles - Cyan -->
+  <g fill="#00FFFF">
+    <rect x="400" y="60" width="3" height="3" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.8;0.5" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="750" y="70" width="4" height="4" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.9;0.6" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
   </g>
   
-  <!-- Circuit lines -->
-  <g stroke="#00FFFF" stroke-width="1" fill="none" opacity="0.5" filter="url(#glow)">
-    <path d="M0,75 L100,75 L120,55 L200,55"/>
-    <circle cx="200" cy="55" r="2" fill="#00FFFF"/>
+  <!-- Circuit lines with orange -->
+  <g stroke="#FF6B35" stroke-width="1" fill="none" opacity="0.5">
+    <path d="M0,75 L100,75 L120,55 L200,55">
+      <animate attributeName="stroke-opacity" values="0.5;0.8;0.5" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="200" cy="55" r="2" fill="#FF6B35">
+      <animate attributeName="r" values="2;3;2" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
   </g>
   
-  <g stroke="#FF00FF" stroke-width="1" fill="none" opacity="0.5" filter="url(#glow)">
-    <path d="M1200,75 L1100,75 L1080,95 L1000,95"/>
-    <circle cx="1000" cy="95" r="2" fill="#FF00FF"/>
+  <!-- Circuit lines with pink -->
+  <g stroke="#FF1744" stroke-width="1" fill="none" opacity="0.5">
+    <path d="M1200,75 L1100,75 L1080,95 L1000,95">
+      <animate attributeName="stroke-opacity" values="0.5;0.8;0.5" dur="2.3s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="1000" cy="95" r="2" fill="#FF1744">
+      <animate attributeName="r" values="2;3;2" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
   </g>
   
   <!-- Glitch lines -->
-  <rect x="0" y="45" width="1200" height="1" fill="#00FFFF" opacity="0.1"/>
-  <rect x="0" y="105" width="1200" height="1" fill="#FF00FF" opacity="0.1"/>
+  <rect x="0" y="45" width="1200" height="1" fill="#FF6B35" opacity="0.15">
+    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="0.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="0" y="105" width="1200" height="1" fill="#FF1744" opacity="0.1">
+    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="0.7s" repeatCount="indefinite"/>
+  </rect>
   
   <!-- Center text -->
-  <text x="600" y="70" font-family="'Courier New', monospace" font-size="14" fill="#00FFFF" text-anchor="middle" filter="url(#glow)">
+  <text x="600" y="65" font-family="'Courier New', monospace" font-size="14" fill="#00FFFF" text-anchor="middle" filter="url(#glow)">
     &lt;/&gt; SYSTEM.EXIT(0)
   </text>
   
-  <text x="600" y="95" font-family="'Courier New', monospace" font-size="11" fill="#666666" text-anchor="middle">
-    <tspan fill="#00FF00">●</tspan> Connected | 
-    <tspan fill="#FF00FF">30+ PRs</tspan> | 
+  <text x="600" y="90" font-family="'Courier New', monospace" font-size="11" fill="#666666" text-anchor="middle">
+    <tspan fill="#FF6B35">●</tspan> Connected | 
+    <tspan fill="#FF1744">30+ PRs</tspan> | 
     <tspan fill="#00FFFF">Open Source</tspan> | 
-    <tspan fill="#00FF00">Java Backend</tspan>
+    <tspan fill="#FF6B35">Java Backend</tspan>
   </text>
   
   <!-- Bottom code decoration -->
-  <text x="50" y="135" font-family="'Courier New', monospace" font-size="10" fill="#3a5a7c" opacity="0.4">
+  <text x="50" y="135" font-family="'Courier New', monospace" font-size="10" fill="#5a3a7c" opacity="0.5">
     [EOF] session_end: true | uptime: ∞
   </text>
-  <text x="950" y="135" font-family="'Courier New', monospace" font-size="10" fill="#3a5a7c" opacity="0.4">
+  <text x="950" y="135" font-family="'Courier New', monospace" font-size="10" fill="#5a3a7c" opacity="0.5">
     © 2025 NiMv1 | v2.0.0
   </text>
   
-  <!-- Corner brackets -->
-  <g stroke="#FF00FF" stroke-width="1.5" fill="none" opacity="0.6">
+  <!-- Corner brackets with warm colors -->
+  <g stroke="#FF6B35" stroke-width="1.5" fill="none" opacity="0.6">
     <path d="M15,15 L15,35 M15,15 L35,15"/>
     <path d="M1185,15 L1185,35 M1185,15 L1165,15"/>
+  </g>
+  <g stroke="#FF1744" stroke-width="1.5" fill="none" opacity="0.6">
     <path d="M15,135 L15,115 M15,135 L35,135"/>
     <path d="M1185,135 L1185,115 M1185,135 L1165,135"/>
   </g>
