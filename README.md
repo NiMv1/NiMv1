@@ -3,13 +3,13 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=%F0%9F%94%A5+30%2B+Open+Source+PRs+%7C+18+Merged;%F0%9F%9A%80+Spring+Boot+%7C+Kafka+%7C+Microservices;%F0%9F%92%BB+High-Load+Distributed+Systems;%E2%9A%A1+AI-Assisted+Development+%7C+Windsurf" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFFF&center=true&vCenter=true&width=650&lines=%F0%9F%94%A5+39+Open+Source+PRs+%7C+22%2B+Merged;%F0%9F%9A%80+Spring+Boot+%7C+Kafka+%7C+Microservices;%F0%9F%92%BB+High-Load+Distributed+Systems;%E2%9A%A1+AI-Assisted+Development+%7C+Windsurf" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=NiMv1&label=Profile%20Views&color=00FFFF&style=for-the-badge" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/NiMv1?label=Followers&style=for-the-badge&color=FF00FF" alt="Followers" />
-  <img src="https://img.shields.io/badge/Open_Source-30+_PRs-00FF00?style=for-the-badge&logo=github" alt="PRs" />
+  <img src="https://img.shields.io/badge/Open_Source-39_PRs-00FF00?style=for-the-badge&logo=github" alt="PRs" />
   <img src="https://img.shields.io/badge/AI_Assisted-Windsurf-6366f1?style=for-the-badge&logo=codeium&logoColor=white" alt="AI" />
 </p>
 
@@ -162,10 +162,10 @@ public class Developer {
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/30+-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
+      <img src="https://img.shields.io/badge/39-PR_Created-00FFFF?style=for-the-badge&logo=git&logoColor=black"/>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/18-Merged-00FF00?style=for-the-badge&logo=github&logoColor=black"/>
+      <img src="https://img.shields.io/badge/22+-Merged-00FF00?style=for-the-badge&logo=github&logoColor=black"/>
     </td>
     <td align="center">
       <img src="https://img.shields.io/badge/10-Projects-FF00FF?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/>
@@ -175,16 +175,15 @@ public class Developer {
 
 | Проект | Вклад | Статус |
 |--------|-------|--------|
-| **[Checkstyle](https://github.com/checkstyle/checkstyle)** | 19 PR — Javadoc AST format, TEXT/NEWLINE tokens | ✅ 16 Merged, 2 Open |
-| **[JabRef](https://github.com/JabRef/jabref)** | ArXivIdentifier.findInText() method | ⏳ Review |
+| **[Checkstyle](https://github.com/checkstyle/checkstyle)** | 20 PR — Javadoc AST format, 28 tokens documentation | ✅ 17 Merged, 1 Open |
+| **[Apache Seata](https://github.com/apache/incubator-seata)** | Unit tests core module + spring-boot-starter coverage | ✅ 4 Merged, 1 Open |
+| **[JabRef](https://github.com/JabRef/jabref)** | ArXivIdentifier.findInText() + JSON export fix | ⏳ 1 Merged, 2 Open |
 | **[Mockito](https://github.com/mockito/mockito)** | Документация RETURNS_MOCKS | ✅ Merged |
+| **[Resilience4j](https://github.com/resilience4j/resilience4j)** | Setter для bulkheadAspectOrder | ✅ Merged |
 | **[TestContainers](https://github.com/testcontainers/testcontainers-java)** | getR2dbcUrl() метод | ⏳ Review |
-| **[Resilience4j](https://github.com/resilience4j/resilience4j)** | Setter для bulkheadAspectOrder | ⏳ Review |
-| **[Armeria](https://github.com/line/armeria)** | KafkaLogWriter | ⏳ Review |
-| **[Apache Seata](https://github.com/apache/incubator-seata)** | Unit tests core module | ⏳ Review |
 | **[Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway)** | Empty path prefixes | ⏳ Review |
 | **[OpenFeign](https://github.com/OpenFeign/feign)** | methodKey in RetryableException | ⏳ Review |
-| **[distributed-task-framework](https://github.com/NiMv1/distributed-task-framework)** | JaCoCo coverage report + Codecov upload | ⏳ Review |
+| **[distributed-task-framework](https://github.com/NiMv1/distributed-task-framework)** | JaCoCo coverage report + Codecov upload | ✅ Merged |
 
 ---
 
